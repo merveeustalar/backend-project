@@ -1,3 +1,5 @@
+const divideRouter = require("./divide"); // yeni dosya
+app.use("/", divideRouter);
 const express = require("express");
 const cors = require("cors");
 
