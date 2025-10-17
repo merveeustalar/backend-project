@@ -14,8 +14,8 @@ app.get("/", (req, res) => {
 });
 
 app.post("/sum", (req, res) => {
-    const { num1, num2 } = req.body;
-    res.json({ result: num1 + num2 });
+    const { number1, number2 } = req.body;
+    res.json({ result: number1 + number2 });
 });
 app.post("/multiply", (req, res) => {
     const { number1, number2 } = req.body;
