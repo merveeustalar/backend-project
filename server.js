@@ -27,3 +27,4 @@ app.post("/multiply", (req, res) => {
 app.listen(PORT, () => {
     console.log(`Sunucu ${PORT} portunda çalışıyor.`);
 });
+// yeniden deploy için
